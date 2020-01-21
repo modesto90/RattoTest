@@ -53,7 +53,6 @@ namespace Ratto.Application.Services
             catch (ArgumentException ex)
             {
                 return new RetornoPadraoDTO(ex.Message, ErrorStatusEnum.Warning);
-
             }
             catch (Exception ex)
             {
