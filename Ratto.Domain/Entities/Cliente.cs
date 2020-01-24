@@ -18,6 +18,7 @@ namespace Ratto.Domain.Entities
 
         public Cliente()
         {
+            Cpf = new Document();
 
         }
 

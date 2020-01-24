@@ -11,13 +11,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{646D5D78-1BE6-47CE-8C31-93287BC01A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratto.Presentation", "Ratto.Presentation\Ratto.Presentation.csproj", "{F59A831E-0759-45D0-8A49-B7CB2092B458}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ratto.Presentation", "Ratto.Presentation\Ratto.Presentation.csproj", "{F59A831E-0759-45D0-8A49-B7CB2092B458}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratto.Domain", "Ratto.Domain\Ratto.Domain.csproj", "{A92F5DB7-D77A-4E57-A2EF-00DDE33238B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ratto.Domain", "Ratto.Domain\Ratto.Domain.csproj", "{A92F5DB7-D77A-4E57-A2EF-00DDE33238B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratto.Application", "Ratto.Application\Ratto.Application.csproj", "{1429BAFA-21CD-4E58-94AC-65BD446849E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ratto.Application", "Ratto.Application\Ratto.Application.csproj", "{1429BAFA-21CD-4E58-94AC-65BD446849E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ratto.Infra", "Ratto.Infra\Ratto.Infra.csproj", "{DD79B4C0-392C-4A69-AE33-B72AA1ECF078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ratto.Infra", "Ratto.Infra\Ratto.Infra.csproj", "{DD79B4C0-392C-4A69-AE33-B72AA1ECF078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{21F78884-FEDD-4C64-AFCE-6E9D3F30D4AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{EEC807AC-B8AB-4858-9EF9-0163F0BA4DB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +45,10 @@ Global
 		{DD79B4C0-392C-4A69-AE33-B72AA1ECF078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD79B4C0-392C-4A69-AE33-B72AA1ECF078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD79B4C0-392C-4A69-AE33-B72AA1ECF078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC807AC-B8AB-4858-9EF9-0163F0BA4DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC807AC-B8AB-4858-9EF9-0163F0BA4DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC807AC-B8AB-4858-9EF9-0163F0BA4DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC807AC-B8AB-4858-9EF9-0163F0BA4DB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,7 @@ Global
 		{A92F5DB7-D77A-4E57-A2EF-00DDE33238B7} = {24220EAB-8D7A-4BA9-B727-80FF69C2C016}
 		{1429BAFA-21CD-4E58-94AC-65BD446849E4} = {71EEFE32-D78B-4FAA-A054-84E06795CE6F}
 		{DD79B4C0-392C-4A69-AE33-B72AA1ECF078} = {646D5D78-1BE6-47CE-8C31-93287BC01A1D}
+		{EEC807AC-B8AB-4858-9EF9-0163F0BA4DB4} = {21F78884-FEDD-4C64-AFCE-6E9D3F30D4AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FE95F0F-8265-40B6-9E7A-8773C0AB0CDC}
